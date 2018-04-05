@@ -112,7 +112,7 @@ function showMovies(movie) {
         "\nLanguage: " + body.Language + "\nPlot: " + body.Plot + "\nActors: " + body.Actors);
 
       // //adds text to log.txt
-       fs.appendFile('log.text',"Title: " + body.Title + "\nRelease Year: " + body.Year +
+       fs.appendFile('log.txt', "Title: " + body.Title + "\nRelease Year: " + body.Year +
       "\nIMdB Rating: " + body.imdbRating + "\nCountry: " + body.Country + 
       "\nLanguage: " + body.Language + "\nPlot: " + body.Plot + "\nActors: " + body.Actors, function(error, data){
         if(error){
